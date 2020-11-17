@@ -9,7 +9,7 @@ import JobForm from './views/JobForm';
 
 function App() {
   return (
-    <div className="App">
+    <div style={{ backgroundColor: "#4d98e0", height: "100vh" }}>
       <Router>
         <Switch>
             <Route path="/" exact component={HomeView} />

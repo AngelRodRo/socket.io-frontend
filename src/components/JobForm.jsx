@@ -19,7 +19,9 @@ function JobForm() {
                         multiline
                     />
                 </Grid>
-                <Button type="submit" />
+                <Button type="submit" variant="contained" color="primary">
+                    Registrar
+                </Button>
             </Grid>
         </form>
     )

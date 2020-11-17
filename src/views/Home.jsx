@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Styled from 'styled-components'
+
 import JobList from '../components/JobList'
 
 const jobs = [
@@ -17,11 +19,17 @@ const jobs = [
     },
 ]
 
+const StyledList = Styled.div`
+    padding: 20px;
+`
+
 function Home() {
     return (
-        <JobList
-            jobs={jobs}
-        />        
+        <StyledList>
+            <JobList
+                jobs={jobs}
+            />   
+        </StyledList>
     )
 }
 
