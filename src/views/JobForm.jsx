@@ -1,11 +1,11 @@
 import React from 'react'
 import JobForm from '../components/JobForm'
 
-function Jobs() {
+function JobFormView() {
     return (
         <JobForm/>
     )
 }
 
 
-export default Jobs
+export default JobFormView
