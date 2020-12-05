@@ -4,7 +4,6 @@ import Styled from 'styled-components'
 
 import Card from '@material-ui/core/Card'
 
-
 const StyledCard = Styled(Card)`
     max-width: 700px;
     margin: 20px auto;
