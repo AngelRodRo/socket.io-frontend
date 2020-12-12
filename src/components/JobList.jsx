@@ -5,8 +5,9 @@ import Job from './Job'
 
 function List(props) {
     const { jobs = [] } = props
-    const jobList = jobs.map(({ description, title }) => 
+    const jobList = jobs.map(({ description, title }, idx) => 
         <Job
+            key={idx}
             description={description}
             title={title}
         />

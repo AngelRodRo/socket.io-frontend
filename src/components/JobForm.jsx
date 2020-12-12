@@ -17,6 +17,7 @@ function JobForm() {
 
     const onChangeData = (key, val) => {
         setFormData({
+            ...formData,
             [key]: val
         })
     }
